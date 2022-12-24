@@ -1393,7 +1393,7 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
-    background-color: #fff
+    background-color: #fff;
 }
 
 button,
@@ -1437,7 +1437,7 @@ img {
 .thumbnail>img {
     display: block;
     max-width: 100%;
-    height: auto
+    height: auto;
 }
 
 .img-rounded {
@@ -4373,7 +4373,7 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 
 .open>.dropdown-menu {
@@ -5124,7 +5124,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
